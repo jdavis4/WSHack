@@ -3,12 +3,7 @@ body{
 }
 
 #zipcode{
-    width:150px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.form-group{
-    margin-left: auto;
-    margin-right: auto;
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
 }
