@@ -31,4 +31,23 @@ function parse_data(parsed_json) {
        // console.log("typeof results in parse_data " + typeof(results))
        // console.log("typeof city in parse_data" + typeof(results.city));
         document.getElementById("loc").placeholder = results.city; 
+        
+        displayResults(results);
       }
+
+function displayResults(){
+    var display = document.querySelector("#display");
+    
+        //removes elements from page when button is clicked
+        while (display.hasChildNodes()) {
+            display.removeChild(display.firstChild);
+        }
+    
+    //   var weatherResult = results;
+    //    console.log("Printed from displayResults function");
+    //    console.log(resultsDisp);
+
+        var weather = document.createElement("h4");
+        weather.appendChild(document.createTextNode(results.weath));
+        display.appendChild(weather);
+    }
