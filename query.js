@@ -1,13 +1,11 @@
 var base_url = "http://api.wunderground.com/api/8b1c1856ceead734/geolookup/conditions/q/"
 var ext = ".json";
-var results = "";
+var results;
 
 $(function($) {
     query_url = base_url + "autoip" + ext;
     $.getJSON(query_url, parse_data);
-    console.log(JSON.stringify(results.city));
 
-    document.getElementById("loc").placeholder = results.city; 
 
   //Upon submit, submit an ajax request and return JSON object
   $("#zip").submit(function() {
@@ -31,8 +29,10 @@ function parse_data(parsed_json) {
         
         results = {city:location, temp:temp_f, hum:relative_humidity, precip:precip_1hr_in, weath:weather}
 
-        console.log(results);
-        return results;
+       // console.log(results);
+       // console.log("typeof results in parse_data " + typeof(results))
+       // console.log("typeof city in parse_data" + typeof(results.city));
+        document.getElementById("loc").placeholder = results.city; 
       }
 
 
