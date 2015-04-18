@@ -18,13 +18,14 @@
 
 <div class="well">
 	<h2>Search For Weather</h2>
-	<p>Input city and zip and we will get back the weather data</p>
+	<p>Zip and we will get back the weather data</p>
 
-<form class="form-inline" onsubmit="showInput();" action="javascript:void(0);">
+<form id="target" class="form-inline" action="javascript:void(0);">
 	<div class="form-group">
 	<label>Location</label>
-	<input type="text" class="form-control" name="message" id="user_input" placeholder="location/zipcode"> 
-  <input type="submit" onclick="showInput();"><br /><br />
+	<input type="text" class="form-control" name="loc" id="loc" placeholder="location/zipcode"> 
+<!--  <input type="submit" onclick="showInput();"><br /><br />-->
+  <input type="submit"><br /><br />
 	</div>
 </form>
 
