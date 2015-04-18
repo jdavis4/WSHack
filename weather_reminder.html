@@ -10,7 +10,7 @@
   
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script language="JavaScript" src="query.js"></script>
+	<script language="JavaScript" src="./query.js"></script>
   </head>
 
 
@@ -18,19 +18,26 @@
 
 <div class="well">
 	<h2>Search For Weather</h2>
-	<p>Zip and we will get back the weather data</p>
+	<p>Enter zipcode and we will give you recommendations</p>
 
-<form id="target" class="form-inline" action="javascript:void(0);">
+<form id="zip" class="form-inline" action="javascript:void(0);">
 	<div class="form-group">
 	<label>Location</label>
 	<input type="text" class="form-control" name="loc" id="loc" placeholder="location/zipcode"> 
-<!--  <input type="submit" onclick="showInput();"><br /><br />-->
   <input type="submit"><br /><br />
-
-  <span id="info">[Weather info will display here after inputting Zip!]</p>
 	</div>
 </form>
 
-<span id='display'>[display]</span>
+<form id="current" class="form-inline" action="javascript:void(0);">
+  <div class="form-group">
+  <label>Current</label>
+  <input type="submit" value="current"><br /><br />
+  </div>
+</form>
+
+
+<span id='display'></span> 
+
+
 </body>
 </html>
