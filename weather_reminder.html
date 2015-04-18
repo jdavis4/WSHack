@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta author="Lulu Ye">
+    <link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+    <title>WearWeather</title>
+<!--    <link href='./bootstrap.css' rel='stylesheet' type='text/css'>-->
+    <meta charset="UTF-8">
+  
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script language="JavaScript" src="./query.js"></script>
+  </head>
+
+
+<body>
+
+<div class="well">
+	<h2>Search For Weather</h2>
+	<p>Input city and zip and we will get back the weather data</p>
+
+<form class="form-inline" onsubmit="showInput();" action="javascript:void(0);">
+	<div class="form-group">
+	<label>Location</label>
+	<input type="text" class="form-control" name="message" id="user_input" placeholder="location/zipcode"> 
+  <input type="submit" onclick="showInput();"><br /><br />
+	</div>
+</form>
+
+<span id='display'></span> 
+
+
+</body>
+</html>
