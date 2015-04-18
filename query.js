@@ -1,6 +1,6 @@
 var base_url = "http://api.wunderground.com/api/8b1c1856ceead734/geolookup/conditions/q/"
 var ext = ".json";
-var results;
+//var results;
 
 $(function($) {
   //Upon submit, submit an ajax request and return JSON object
@@ -23,14 +23,12 @@ function parse_data(parsed_json) {
         var precip_1hr_in = parsed_json['current_observation']['precip_1hr_in'];
         var weather = parsed_json['current_observation']['weather'];
         var icon = parsed_json['current_observation']['icon'];
+        var state = parsed_json['location']['state'];
         
-        results = {city:location, temp:temp_f, hum:relative_humidity, precip:precip_1hr_in, weath:weather, ic:icon}
+        results = {city:location, temp:temp_f, hum:relative_humidity, precip:precip_1hr_in, weath:weather, ic:icon, st:state}
 
         console.log(results);
        // console.log("typeof results in parse_data " + typeof(results))
        // console.log("typeof city in parse_data" + typeof(results.city));
         document.getElementById("loc").placeholder = results.city; 
       }
-
-
-

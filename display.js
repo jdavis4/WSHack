@@ -22,14 +22,18 @@ function get_temp( ) {
    }
 
 function get_icon( ) { //will have to make code to set src
-		var image = results.icon;
+		var image = results.ic;
 		var url = "http://icons.wxug.com/i/c/e/";
-		var gif = "gif";
+		var gif = ".gif";
 		return url + image + gif;
    }
 
 function get_loc( ) {
 		return results.city;
+   }
+
+function get_st( ) {
+    return results.st;
    }
 
 function get_precip( ) {
