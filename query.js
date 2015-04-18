@@ -1,22 +1,22 @@
 var base_url = "http://api.wunderground.com/api/8b1c1856ceead734/geolookup/conditions/q/"
-var ext = ".json"
+var ext = ".json";
 var results = "";
 
 $(function($) {
+    query_url = base_url + "autoip" + ext;
+    $.getJSON(query_url, parse_data);
+    console.log(JSON.stringify(results.city));
+
+    document.getElementById("loc").placeholder = results.city; 
+
   //Upon submit, submit an ajax request and return JSON object
   $("#zip").submit(function() {
       zip = $("#loc").val();
-      console.log(zip);
 
       query_url = base_url + zip + ext;
 
       $.getJSON(query_url,parse_data);
   
-});
-    $("#current").submit(function() {
-      query_url = base_url + "autoip" + ext;
-
-    $.getJSON(query_url, parse_data);
 });
 
 
