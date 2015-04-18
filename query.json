@@ -1,0 +1,470 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"MA",
+		"city":"Wellesley",
+		"tz_short":"EDT",
+		"tz_long":"America/New_York",
+		"lat":"42.31576157",
+		"lon":"-71.26505280",
+		"zip":"02481",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:02481.1.99999",
+		"requesturl":"US/MA/Wellesley.html",
+		"wuiurl":"http://www.wunderground.com/US/MA/Wellesley.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Norwood", "state":"MA", "country":"US", "icao":"KOWD", "lat":"42.19123077", "lon":"-71.17326355" }
+		,{ "city":"Bedford", "state":"MA", "country":"US", "icao":"KBED", "lat":"42.46995163", "lon":"-71.28903198" }
+		,{ "city":"East Milton", "state":"MA", "country":"US", "icao":"KMQE", "lat":"42.21207047", "lon":"-71.11416626" }
+		,{ "city":"Boston", "state":"MA", "country":"US", "icao":"KBOS", "lat":"42.36056900", "lon":"-71.00972748" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Wellesley Standish",
+		"city":"Wellesley",
+		"state":"MA",
+		"country":"US",
+		"id":"KMAWELLE23",
+		"lat":42.309853,
+		"lon":-71.257980,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Babson Park, MA",
+		"city":"Wellesley",
+		"state":"MA",
+		"country":"US",
+		"id":"KMAWELLE13",
+		"lat":42.297894,
+		"lon":-71.265663,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Needham Heights",
+		"city":"Needham",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANEEDH6",
+		"lat":42.296715,
+		"lon":-71.237648,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Waban",
+		"city":"Newton",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANEWTO24",
+		"lat":42.327084,
+		"lon":-71.229965,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Temple Road",
+		"city":"Wellesley",
+		"state":"MA",
+		"country":"US",
+		"id":"KMAWELLE24",
+		"lat":42.290497,
+		"lon":-71.286530,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Waban MA",
+		"city":"Waban",
+		"state":"MA",
+		"country":"US",
+		"id":"KMAWABAN1",
+		"lat":42.331001,
+		"lon":-71.224998,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Weston",
+		"city":"Weston",
+		"state":"MA",
+		"country":"US",
+		"id":"KMAWESTO11",
+		"lat":42.354088,
+		"lon":-71.272064,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Eaton Square",
+		"city":"Needham",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANEEDH7",
+		"lat":42.280930,
+		"lon":-71.237755,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Webster Street",
+		"city":"Needham",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANEEDH10",
+		"lat":42.284428,
+		"lon":-71.229385,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Wellesley Street",
+		"city":"Weston",
+		"state":"MA",
+		"country":"US",
+		"id":"KMAWESTO13",
+		"lat":42.344810,
+		"lon":-71.304665,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Wellesley College",
+		"city":"Wellesley",
+		"state":"MA",
+		"country":"US",
+		"id":"KMAWELLE11",
+		"lat":42.294823,
+		"lon":-71.314194,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"West Newton",
+		"city":"Newton",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANEWTO10",
+		"lat":42.346039,
+		"lon":-71.223694,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"West Newton",
+		"city":"Waltham",
+		"state":"MA",
+		"country":"US",
+		"id":"KMAWALTH15",
+		"lat":42.351200,
+		"lon":-71.230530,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"West Newton",
+		"city":"Newton",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANEWTO14",
+		"lat":42.345531,
+		"lon":-71.221031,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"High Ledge",
+		"city":"Wellesley",
+		"state":"MA",
+		"country":"US",
+		"id":"KMAWELLE22",
+		"lat":42.308239,
+		"lon":-71.326424,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"East Natick",
+		"city":"Natick",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANATIC3",
+		"lat":42.311039,
+		"lon":-71.329773,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Laurel Drive",
+		"city":"Needham",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANEEDH8",
+		"lat":42.270988,
+		"lon":-71.234222,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Boston Post Road",
+		"city":"Weston",
+		"state":"MA",
+		"country":"US",
+		"id":"KMAWESTO15",
+		"lat":42.366741,
+		"lon":-71.281448,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Newton Center Theodore Rd",
+		"city":"Newton",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANEWTO18",
+		"lat":42.314468,
+		"lon":-71.194107,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Woodworth Road",
+		"city":"Dedham",
+		"state":"MA",
+		"country":"US",
+		"id":"KMADEDHA7",
+		"lat":42.266415,
+		"lon":-71.234665,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Newton Centre",
+		"city":"Newton",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANEWTO17",
+		"lat":42.327751,
+		"lon":-71.193367,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Bird\u0027s Hill",
+		"city":"Needham",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANEEDH5",
+		"lat":42.276741,
+		"lon":-71.210381,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Newton Centre",
+		"city":"Newton",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANEWTO12",
+		"lat":42.331764,
+		"lon":-71.189774,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"South Waltham",
+		"city":"Waltham",
+		"state":"MA",
+		"country":"US",
+		"id":"KMAWALTH9",
+		"lat":42.368469,
+		"lon":-71.231201,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Sky View Circle",
+		"city":"Newton",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANEWTO19",
+		"lat":42.304619,
+		"lon":-71.185776,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Carlson Avenue",
+		"city":"Newton",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANEWTO21",
+		"lat":42.297932,
+		"lon":-71.187607,
+		"distance_km":6,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Newton Centre",
+		"city":"Newton",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANEWTO16",
+		"lat":42.332993,
+		"lon":-71.182465,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Chestnut Hill",
+		"city":"Chestnut Hill",
+		"state":"MA",
+		"country":"US",
+		"id":"KMACHEST3",
+		"lat":42.333607,
+		"lon":-71.181183,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"West End",
+		"city":"Waltham",
+		"state":"MA",
+		"country":"US",
+		"id":"KMAWALTH13",
+		"lat":42.382233,
+		"lon":-71.270660,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Weston",
+		"city":"Weston",
+		"state":"MA",
+		"country":"US",
+		"id":"KMAWESTO10",
+		"lat":42.380852,
+		"lon":-71.288826,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"",
+		"city":"Natick",
+		"state":"MA",
+		"country":"US",
+		"id":"KMANATIC6",
+		"lat":42.292419,
+		"lon":-71.350883,
+		"distance_km":7,
+		"distance_mi":4
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Wellesley, MA",
+		"city":"Wellesley",
+		"state":"MA",
+		"state_name":"Massachusetts",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"02481",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"42.31576157",
+		"longitude":"-71.26505280",
+		"elevation":"62.00000000"
+		},
+		"observation_location": {
+		"full":"Wellesley Standish, Wellesley, Massachusetts",
+		"city":"Wellesley Standish, Wellesley",
+		"state":"Massachusetts",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"42.309853",
+		"longitude":"-71.257980",
+		"elevation":"100 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KMAWELLE23",
+		"observation_time":"Last Updated on April 18, 4:27 PM EDT",
+		"observation_time_rfc822":"Sat, 18 Apr 2015 16:27:45 -0400",
+		"observation_epoch":"1429388865",
+		"local_time_rfc822":"Sat, 18 Apr 2015 16:27:52 -0400",
+		"local_epoch":"1429388872",
+		"local_tz_short":"EDT",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0400",
+		"weather":"Partly Cloudy",
+		"temperature_string":"57.4 F (14.1 C)",
+		"temp_f":57.4,
+		"temp_c":14.1,
+		"relative_humidity":"53%",
+		"wind_string":"From the NNE at 3.7 MPH Gusting to 7.0 MPH",
+		"wind_dir":"NNE",
+		"wind_degrees":22,
+		"wind_mph":3.7,
+		"wind_gust_mph":"7.0",
+		"wind_kph":6.0,
+		"wind_gust_kph":"11.3",
+		"pressure_mb":"1010",
+		"pressure_in":"29.82",
+		"pressure_trend":"-",
+		"dewpoint_string":"40 F (4 C)",
+		"dewpoint_f":40,
+		"dewpoint_c":4,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"57.4 F (14.1 C)",
+		"feelslike_f":"57.4",
+		"feelslike_c":"14.1",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"5","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/MA/Wellesley.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KMAWELLE23",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=42.309853,-71.257980",
+		"nowcast":""
+	}
+}
