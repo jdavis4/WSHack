@@ -11,6 +11,11 @@
      <link rel="shortcut icon" href="icon.png">
     <link rel="stylesheet" href="style.css">
     
+    <!--Scripts-->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script language="JavaScript" src="./query.js"></script>
+    
     <title>Weather Wear</title>
 </head>
 
@@ -31,9 +36,21 @@
       </div>
     </nav>
     
-    <div id="zipcode" class="form-group">
-    <input class="form-control" id="focusedInput" type="text" placeholder="Enter Zipcode...">
-    </div>
+    
+    <div class="well">
+        <h2>Search For Weather</h2>
+        <p>Zip and we will get back the weather data</p>
+    
+    
+        <form id="target" class="form-inline" action="javascript:void(0);">
+        <div class="form-group">
+            <label>Enter Location:</label>
+            <input type="text" class="form-control" name="loc" id="loc" placeholder="location/zipcode">
+            <input type="submit"><br /><br />
+        </div>
+        </form>
+        
+    <span id='display'></span> 
 
     
 </body>
